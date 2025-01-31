@@ -18,12 +18,17 @@ public class HesapMakinesi {
     System.out.print("İşlem seç (+ veya -): ");
     char islem = scanner.next().charAt(0);
 
-if (islem == '+') {
+    if (islem == '+') {
         sonuc = sayi1 + sayi2;
     } else if (islem == '-') {
         sonuc = sayi1 - sayi2;
     } else {
         System.out.println("Hata: Geçersiz işlem!");
     }
+}
+    else if (islem == '*') {
+    sonuc = sayi1 * sayi2;
+}
+
 
 }
