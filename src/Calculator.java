@@ -29,6 +29,16 @@ public class HesapMakinesi {
     else if (islem == '*') {
     sonuc = sayi1 * sayi2;
 }
+        } else if (islem == '/') {
+        if (sayi2 != 0) {
+sonuc = sayi1 / sayi2;
+    } else {
+            System.out.println("Hata: Sıfıra bölme yapılamaz!");
+        scanner.close();
+        return;
+                }
+                }
 
 
-}
+
+                }
